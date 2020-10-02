@@ -1,7 +1,7 @@
 import boto3
 
-photo = 'pic.png'
-image_bucket = 'face-rekognition-kolagi'
+photo = PICTURE_NAME
+image_bucket = BUCKET_NAME
 
 rekognition_client = boto3.client('rekognition', aws_access_key_id=aws_access_key_id,
                                   aws_secret_access_key=aws_secret_access_key,
